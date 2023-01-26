@@ -4,10 +4,10 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 1, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: '1st', text: 'In TECDP Summer Innovation Program'},
+  { number: '18%', text: 'Found in U.S. adults of higher vitality.', },
+  { number: '2.5M', text: 'Customer data analysis in those affected by COVID-19.', },
+  { number: '25% ↑', text: 'Transportation budget for the department for the new fiscal year ', }
 ];
 
 const Acomplishments = () => (
@@ -16,9 +16,10 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card,index) => (
         <Box key={index}>
-        <BoxNum>{card.number}+</BoxNum>
+        <BoxNum>{card.number}</BoxNum>
         <BoxText>{card.text}</BoxText>
         </Box>
+
       ))}
     </Boxes>
   </Section>

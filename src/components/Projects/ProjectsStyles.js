@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
-  object-fit: cover;
+  height:auto;
+  object-fit: contain;
   overflow: hidden;
 `
 
@@ -110,3 +110,5 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
+
+

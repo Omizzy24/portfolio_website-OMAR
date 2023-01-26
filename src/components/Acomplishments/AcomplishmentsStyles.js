@@ -23,9 +23,9 @@ export const Boxes = styled.div`
 `
 
 export const Box = styled.div`
-  background: #212D45;
+  background: #412D45;
   border-radius: 12px;
-  height: 144px;
+  height: 196px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;

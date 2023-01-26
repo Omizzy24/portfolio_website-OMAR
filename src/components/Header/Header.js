@@ -9,7 +9,7 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20'}}>
+        <a style={{ display: " flex", alignItems: "center", color: "white", marginBottom: '20'}}>
           <DiCssdeck size="3rem" /> <Span>Omar Al-Shammary's Portfolio</Span>
           </a>
       </Link>
@@ -26,21 +26,23 @@ const Header = () =>  (
         </Link>
       </li>
       <Link href = "#about">
-        <NavLink>About</NavLink>
+      <li>
+          <NavLink>About</NavLink>
+      </li>
       </Link>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/Omizzy24">
         <AiFillGithub size="3rem" />
       </SocialIcons>
 
-      <SocialIcons href="https://linkedin.com">
+      <SocialIcons href="https://linkedin.com/in/omar-al-shammary02518372">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
 
-      <SocialIcons href="https://instagram.com">
+      {/* <SocialIcons href="https://instagram.com">
         <AiFillInstagram size="3rem" />
-      </SocialIcons>
+      </SocialIcons> */}
      
     </Div3>
   </Container>
