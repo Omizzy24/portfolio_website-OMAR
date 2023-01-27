@@ -40,9 +40,9 @@ const Header = () =>  (
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
 
-      {<SocialIcons href="https://instagram.com">
+      {/* {<SocialIcons href="https://instagram.com">
         <AiFillFilePdf size="3rem" />
-      </SocialIcons>}
+      </SocialIcons>} */}
      
     </Div3>
   </Container>
