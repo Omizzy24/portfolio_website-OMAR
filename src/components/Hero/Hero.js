@@ -22,7 +22,7 @@ const Hero = () => (
         &emsp; I am currently a Senior Analyst at Cigna, being apart of the TECDP program. 
         </li>
       </SectionText>
-      <Button onClick={() => window.location = ''}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://docs.google.com/document/d/1Uxj_eEkVAfCw3cmi2A1jucku6oNh8hIt/edit?usp=sharing&ouid=107957855563689793858&rtpof=true&sd=true'}>Learn More</Button>
     </LeftSection>
   </Section>
 );

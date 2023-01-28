@@ -21,7 +21,7 @@ const Footer = () => {
     <SocialIconsContainer>
       <CompanyContainer>
         <Slogan>
-          Innovating one project at a time
+          Innovating one project at a time.
         </Slogan>
       </CompanyContainer>
       <SocialContainer> 
