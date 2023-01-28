@@ -1,7 +1,6 @@
-## Personal Portfolio
+# Hello, I hope all is well to whoever is reading this.
 
+# Here you can find the source code of my personal portfolio. I used Node.JS, React, alongside with HTML and CSS to design it. 
 
-Your portfolio is your resume and your business card.
-Setup:
-- run ```npm i && npm start```
+Feel free to look over wherever you like! 
 
